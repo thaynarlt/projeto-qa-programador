@@ -1,0 +1,10 @@
+{
+  "servicoValido": {
+    "termo": "Aposentadoria",
+    "descricao": "Servicos de aposentadoria e beneficios do INSS"
+  },
+  "paginaInicial": {
+    "tituloEsperado": "GOV.BR",
+    "url": "/pt-br"
+  }
+}
