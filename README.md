@@ -2,7 +2,7 @@
 
 Automação de testes de UI no **Portal do Governo Brasileiro (gov.br)** usando
 **Behavior-Driven Development (BDD)** com **Cypress 13+**, **Cucumber** e
-**Gherkin** (palavras reservadas em português).
+**Gherkin**.
 
 ---
 
@@ -158,15 +158,3 @@ verificados na estrutura atual do portal. Como em qualquer projeto de QA contra
 um ambiente vivo, se o site mudar, basta inspecionar o elemento (F12) e ajustar
 o seletor no respectivo **Page Object** (`cypress/pages/`) — a separação em Page
 Objects existe justamente para tornar esse ajuste rápido e centralizado.
-
----
-
-## 9. Roteiro sugerido para o vídeo
-
-1. **Qual é a app?** — Mostrar o alvo: Portal gov.br.
-2. **Iremos testar o quê?** — Mostrar os contextos: acesso, navegação e busca.
-3. **Cenários?** — Mostrar a lista de cenários (seção 7 deste README).
-4. **Casos de teste?**
-   - 4.1) **Texto** — mostrar a tabela de planejamento (seção 6).
-   - 4.2) **Código** — mostrar os `.feature` e os arquivos `*Steps.js`.
-5. **Executar o código!** — Rodar `npx cypress open` e mostrar os testes passando.
