@@ -1,0 +1,27 @@
+{
+  "name": "projeto-va02-qa",
+  "version": "1.0.0",
+  "description": "Projeto VA02 de QA - P5 | BDD com Cypress + Cucumber + Gherkin testando o Portal gov.br",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "test": "cypress run"
+  },
+  "keywords": [
+    "qa",
+    "cypress",
+    "cucumber",
+    "gherkin",
+    "bdd",
+    "gov.br"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^24.0.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.8",
+    "cypress": "^13.6.0",
+    "esbuild": "^0.28.0"
+  }
+}
