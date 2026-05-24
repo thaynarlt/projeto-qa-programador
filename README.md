@@ -4,6 +4,8 @@ Automação de testes de UI no **Portal do Governo Brasileiro (gov.br)** usando
 **Behavior-Driven Development (BDD)** com **Cypress 13+**, **Cucumber** e
 **Gherkin**.
 
+Link do vídeo da apresentação: https://youtu.be/92rkaYDBu2U
+
 ---
 
 ## 1. Sobre o projeto
